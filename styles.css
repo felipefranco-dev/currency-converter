@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(25deg, #fb4168, #ff8a76, #ffc384, #fff992)
+}
+
+conteiner {
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+div {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+select { 
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    appearance: none;
+    outline: none;
+    font-weight: 500;
+    font-style: italic;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: none;
+}
+
+input {
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    appearance: none;
+    outline: none;
+    font-weight: 600
+}
+
+input::placeholder {
+    font-weight: 500;
+    font-style: italic;
+}
+
+button {
+    width: 170px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: aqua;
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+img {
+    width: 40px;
+}
+
+.img-footer {
+    width: 90px;
+}
+
+p {
+    font-weight: 600;
+}

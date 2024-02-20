@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <conteiner>
+
+        <div>
+
+            <p>Converter de:</p>
+            <select class="select-currency">
+                <option value="real">Real Brasileiro R$</option>
+                <option value="dolar">Dólar Americano $</option>
+                <option value="euro">Euro €</option>
+                <option value="bitcoin">Bit Coin</option>
+            </select>
+
+            <img class="img-currency" src="./assets/Real.png" alt="real-logo">
+
+            <input type="number" placeholder="100,00 R$" class="value">
+
+        </div>
+
+        <div>
+
+           <p>Para:</p> 
+            <select class="select-change-currency">
+                <option value="dolar">Dólar Americano $</option>
+                <option value="real">Real Brasileiro R$</option>
+                <option value="euro">Euro €</option>
+                <option value="bitcoin">Bit Coin</option>
+            </select>
+
+            <img class="img-change-currency" src="./assets/Dólar.png" alt="">
+
+            <button>Converter</button>
+
+        </div>
+
+        <div class="div-final">
+
+            <img src="./assets/Dólar.png" alt="" class="img-changed-currency">
+            <p class="final-result">xx.xxx</p>
+            <img src="./assets/currency.png" class="img-footer" alt="">
+
+        </div>
+
+    </conteiner>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
